@@ -1,0 +1,14 @@
+controller_list:
+  - name: fake_robotic_arm_controller
+    joints:
+      - Rev11
+      - Rev12
+      - Rev13
+      - Rev14
+      - Rev15
+      - Rev16
+  - name: fake_gripper_controller
+    joints:
+      - Rev17
+      - Rev18
+      - Rev19
