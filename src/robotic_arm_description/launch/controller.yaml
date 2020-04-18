@@ -1,0 +1,63 @@
+robotic_arm_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  Rev20_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev20
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev21_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev21
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev22_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev22
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev23_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev23
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev24_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev24
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev25_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev25
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev26_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev26
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev27_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev27
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev28_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev28
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev29_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev29
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev30_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev30
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev31_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev31
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev32_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev32
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev33_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev33
+    pid: {p: 100.0, i: 0.01, d: 10.0}

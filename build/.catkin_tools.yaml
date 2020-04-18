@@ -1,0 +1,6 @@
+devel_space: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel
+install: false
+install_space: /home/arpit/manas/ros_workspaces/robotic_arm_ws/install
+profile: default
+source_space: /home/arpit/manas/ros_workspaces/robotic_arm_ws/src
+workspace: /home/arpit/manas/ros_workspaces/robotic_arm_ws
