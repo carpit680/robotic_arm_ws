@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/arpit/manas/ros_workspaces/ws_moveit/devel/lib:/opt/ros/melodic/lib"
+export PKG_CONFIG_PATH="/home/arpit/manas/ros_workspaces/ws_moveit/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
 export PWD="/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/catkin_tools_prebuild"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/catkin_tools_prebuild:/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_description:/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_gazebo:/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_moveit_config:/home/arpit/manas/ros_workspaces/ws_moveit/src/moveit_tutorials:/opt/ros/melodic/share"

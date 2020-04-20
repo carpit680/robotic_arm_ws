@@ -1,0 +1,2 @@
+robotic_arm_gazebo
+/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_gazebo/cmake.lock /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/./cmake.lock

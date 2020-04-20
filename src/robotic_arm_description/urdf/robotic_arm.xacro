@@ -5,6 +5,11 @@
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.trans" />
 <xacro:include filename="$(find robotic_arm_description)/urdf/robotic_arm.gazebo" />
 <link name="base_link">
+<inertial>
+    <origin rpy="0 0 0" xyz="-7.044926902746826e-09 -4.737750495934672e-09 0.038474409050025755"/>
+    <mass value="5.749401825671835"/>
+    <inertia ixx="0.007412" ixy="-0.0" ixz="-0.0" iyy="0.007412" iyz="-0.0" izz="0.008288"/>
+  </inertial>
   <visual>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <geometry>
