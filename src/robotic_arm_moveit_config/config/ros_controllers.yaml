@@ -35,6 +35,7 @@ joint_position_controller:
     - Rev14
     - Rev15
     - Rev16
+    - Rev17
   gains:
     Rev11:
       p: 100
@@ -62,6 +63,11 @@ joint_position_controller:
       i: 1
       i_clamp: 1
     Rev16:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Rev17:
       p: 100
       d: 1
       i: 1

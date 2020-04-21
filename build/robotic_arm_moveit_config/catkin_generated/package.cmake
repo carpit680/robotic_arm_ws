@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "robotic_arm_moveit_config")
 set(robotic_arm_moveit_config_VERSION "0.3.0")
-set(robotic_arm_moveit_config_MAINTAINER "Arpit Chauhan <carpit680@gmail.com>")
+set(robotic_arm_moveit_config_MAINTAINER "arpit <carpit680@gmail.com>")
 set(robotic_arm_moveit_config_PACKAGE_FORMAT "1")
 set(robotic_arm_moveit_config_BUILD_DEPENDS "robotic_arm_description")
 set(robotic_arm_moveit_config_BUILD_EXPORT_DEPENDS "moveit_ros_move_group" "moveit_fake_controller_manager" "moveit_kinematics" "moveit_planners_ompl" "moveit_ros_visualization" "moveit_setup_assistant" "joint_state_publisher" "robot_state_publisher" "tf2_ros" "xacro" "robotic_arm_description")

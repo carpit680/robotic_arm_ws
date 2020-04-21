@@ -1,0 +1,48 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+robotic_arm_position_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+      - Rev11
+      - Rev12
+      - Rev13
+      - Rev14
+      - Rev15
+      - Rev16
+      - Rev17
+
+  constraints:
+    goal_time: 0.5                   # Override default
+    stopped_velocity_tolerance: 0.02 # Override default
+    Rev11:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5                     # Not enforced if unspecified
+    Rev12:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5                     # Not enforced if unspecified
+    Rev13:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5                     # Not enforced if unspecified
+    Rev14:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5                     # Not enforced if unspecified
+    Rev15:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5       
+    Rev16:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5  
+    Rev17:
+      trajectory: 1.0               # Not enforced if unspecified
+      goal: 0.5                # Not enforced if unspecified
+
+  gains:
+    Rev11: {p: 10, i: 1, d: 0.001}
+    Rev12: {p: 10,  i: 1, d: 0.1}
+    Rev13: {p: 10, i: 1, d: 0.001}
+    Rev14: {p: 10,  i: 1, d: 0.001}
+    Rev15: {p: 10,  i: 1, d: 0.001}
+    Rev16: {p: 10,  i: 1, d: 0.001}
+    Rev17: {p: 10,  i: 1, d: 0.001}

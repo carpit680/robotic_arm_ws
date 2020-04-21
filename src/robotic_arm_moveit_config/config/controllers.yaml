@@ -1,17 +1,13 @@
 controller_list:
-  - name: robotic_arm_controller
+  - name: robotic_arm/robotic_arm_position_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
-    joints:
+    joints: 
       - Rev11
       - Rev12
       - Rev13
       - Rev14
       - Rev15
       - Rev16
-  # - name: gripper_controller
-  #   joints:
-  #     - Rev17
-  #     - Rev18
-  #     - Rev19
+      - Rev17

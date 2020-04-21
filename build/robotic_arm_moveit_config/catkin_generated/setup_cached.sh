@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_moveit_config:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_moveit_config/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_moveit_config/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_moveit_config"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_moveit_config/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_moveit_config:$ROS_PACKAGE_PATH"

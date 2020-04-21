@@ -1,0 +1,1 @@
+/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/lib/pkgconfig/robotic_arm_control.pc

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/arpit/manas/ros_workspaces/robotic_arm_ws/install/setup.sh

@@ -7,8 +7,8 @@ controller_list:
       - Rev14
       - Rev15
       - Rev16
+      - Rev17
   - name: fake_gripper_controller
     joints:
-      - Rev17
       - Rev18
       - Rev19
