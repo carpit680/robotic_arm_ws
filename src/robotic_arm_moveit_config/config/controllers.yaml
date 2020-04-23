@@ -1,13 +1,44 @@
-controller_list:
-  - name: robotic_arm/robotic_arm_position_controller
-    action_ns: follow_joint_trajectory
-    type: FollowJointTrajectory
-    default: true
-    joints: 
-      - Rev11
-      - Rev12
-      - Rev13
-      - Rev14
-      - Rev15
-      - Rev16
-      - Rev17
+  controller_list:
+    - name: Rev11_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - Rev11
+    - name: Rev12_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - Rev12
+    - name: Rev13_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - Rev13
+    - name: Rev14_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - Rev14
+
+    - name: Rev15_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints:
+        - Rev15
+    - name: Rev16_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - Rev16
+    - name: Rev17_position_controller
+      # action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - Rev17
