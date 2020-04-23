@@ -4,5 +4,5 @@ Name: robotic_arm_description
 Description: Description of robotic_arm_description
 Version: 0.0.0
 Cflags: 
-Libs: -L${prefix}/lib 
+Libs: -L${prefix}/lib -lrobotic_arm_description
 Requires: 

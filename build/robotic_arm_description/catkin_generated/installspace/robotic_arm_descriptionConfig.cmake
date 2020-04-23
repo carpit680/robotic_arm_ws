@@ -99,7 +99,7 @@ if(NOT " " STREQUAL " ")
   elseif(NOT " " STREQUAL " ")
     set(_report "Check the website '' for information and consider reporting the problem.")
   else()
-    set(_report "Report the problem to the maintainer 'syuntoku14 <syuntoku14@todo.todo>' and request to fix the problem.")
+    set(_report "Report the problem to the maintainer 'arpit <carpit680@gmail.com>' and request to fix the problem.")
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
@@ -116,7 +116,7 @@ if(NOT " " STREQUAL " ")
   endforeach()
 endif()
 
-set(libraries "")
+set(libraries "robotic_arm_description")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/arpit/manas/ros_workspaces/robotic_arm_ws/install/lib;/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib;/home/arpit/manas/ros_workspaces/ws_moveit/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/arpit/manas/ros_workspaces/robotic_arm_ws/install/lib;/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib;/home/arpit/catkin_ws/devel/lib;/home/arpit/manas/ros_workspaces/ws_moveit/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
