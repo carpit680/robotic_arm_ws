@@ -1,0 +1,8 @@
+prefix=/home/arpit/manas/ros_workspaces/robotic_arm_ws/install
+
+Name: robotic_arm_teleop
+Description: Description of robotic_arm_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

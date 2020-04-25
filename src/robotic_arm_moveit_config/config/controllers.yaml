@@ -4,10 +4,10 @@ controller_list:
     type: FollowJointTrajectory
     default: true
     joints:
-      - Rev11
-      - Rev12
-      - Rev13
-      - Rev14
-      - Rev15
-      - Rev16
-      - Rev17
+      - Rev1
+      - Rev2
+      - Rev3
+      - Rev4
+      - Rev5
+      - Rev6
+      - Rev7

@@ -128,6 +128,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 file(INSTALL DESTINATION "/home/arpit/manas/ros_workspaces/robotic_arm_ws/install" TYPE FILE FILES "/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/catkin_generated/installspace/.rosinstall")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/catkin_generated/installspace/robotic_arm_description.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_description/cmake" TYPE FILE FILES
+    "/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/catkin_generated/installspace/robotic_arm_descriptionConfig.cmake"
+    "/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/catkin_generated/installspace/robotic_arm_descriptionConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotic_arm_description" TYPE FILE FILES "/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_description/package.xml")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/gtest/cmake_install.cmake")

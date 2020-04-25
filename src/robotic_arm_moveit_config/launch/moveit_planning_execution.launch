@@ -12,7 +12,7 @@
     <arg name="info" value="true"/>
   </include>
 
-  <!-- Generate/Load robot description file -->
+  <!-- Generate/Load robot description file and controllers-->
   <include file="$(find robotic_arm_control)/launch/robotic_arm_control.launch"/>
 
   <!-- The visualization component of MoveIt! -->

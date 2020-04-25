@@ -1,100 +1,89 @@
 <?xml version="1.0" ?>
 <robot name="robotic_arm" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<transmission name="Rev11_tran">
+<transmission name="Rev1_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev11">
+  <joint name="Rev1">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev11_actr">
+  <actuator name="Rev1_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev12_tran">
+<transmission name="Rev2_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev12">
+  <joint name="Rev2">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev12_actr">
+  <actuator name="Rev2_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev13_tran">
+<transmission name="Rev3_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev13">
+  <joint name="Rev3">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev13_actr">
+  <actuator name="Rev3_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev14_tran">
+<transmission name="Rev4_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev14">
+  <joint name="Rev4">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev14_actr">
+  <actuator name="Rev4_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev15_tran">
+<transmission name="Rev5_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev15">
+  <joint name="Rev5">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev15_actr">
+  <actuator name="Rev5_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev16_tran">
+<transmission name="Rev6_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev16">
+  <joint name="Rev6">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev16_actr">
-    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    <mechanicalReduction>1</mechanicalReduction>
-  </actuator>
-</transmission>Position
-
-<transmission name="Rev17_tran">
-  <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev17">
-    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-  </joint>
-  <actuator name="Rev17_actr">
+  <actuator name="Rev6_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev18_tran">
+<transmission name="Rev7_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev18">
+  <joint name="Rev7">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev18_actr">
+  <actuator name="Rev7_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Rev19_tran">
+<transmission name="Rev8_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Rev19">
+  <joint name="Rev8">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Rev19_actr">
+  <actuator name="Rev8_actr">
     <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>

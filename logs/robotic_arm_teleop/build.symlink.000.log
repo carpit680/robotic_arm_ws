@@ -1,0 +1,4 @@
+Symlinking /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake
+Symlinking /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake
+Symlinking /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_teleop.pc
+Symlinking /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard

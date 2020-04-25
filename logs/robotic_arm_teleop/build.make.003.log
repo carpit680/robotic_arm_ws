@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target robotic_teleop_arm_gripper_keyboard[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/src/robotic_teleop_arm_gripper_keyboard.cpp.o[0m
+[01m[K/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp:352:34:[m[K [01;31m[Kerror: [m[K‘[01m[KNoSigintgripperler[m[K’ is not a member of ‘[01m[Kros::init_options[m[K’
+               ros::init_options::[01;31m[KNoSigintgripperler[m[K);
+                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp:352:34:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KNoSigintHandler[m[K’
+               ros::init_options::[01;36m[KNoSigintgripperler[m[K);
+                                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+                                  [32m[KNoSigintHandler[m[K
+CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/build.make:62: recipe for target 'CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/src/robotic_teleop_arm_gripper_keyboard.cpp.o' failed
+make[2]: *** [CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/src/robotic_teleop_arm_gripper_keyboard.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/all' failed
+make[1]: *** [CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

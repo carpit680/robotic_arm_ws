@@ -1,0 +1,7 @@
+[01m[K/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kpanda_teleop/robotic_teleop_arm_gripper_keyboard.h: No such file or directory
+ #include [01;31m[K<panda_teleop/robotic_teleop_arm_gripper_keyboard.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/src/robotic_teleop_arm_gripper_keyboard.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/all] Error 2
+make: *** [all] Error 2
