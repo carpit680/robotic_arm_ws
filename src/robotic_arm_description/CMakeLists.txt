@@ -11,12 +11,4 @@ find_package(catkin REQUIRED COMPONENTS
  find_package(gazebo REQUIRED)
  include_directories(include ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE_DIRS} ${SDFormat_INCLUDE_DIRS})
 
-## System dependencies are found with CMake's conventions
-# find_package(Boost REQUIRED COMPONENTS system)
-
-
-#include_directories(
-# include
-#  ${catkin_INCLUDE_DIRS}
-)
 
