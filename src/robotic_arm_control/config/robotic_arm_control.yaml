@@ -15,7 +15,7 @@
       - Rev5
       - Rev6
       - Rev7
-  constraints:
+    constraints:
       goal_time: 0.6
       stopped_velocity_tolerance: 0.05
       Rev1: {trajectory: 0.1, goal: 0.1}
@@ -25,9 +25,9 @@
       Rev5: {trajectory: 0.1, goal: 0.1}
       Rev6: {trajectory: 0.1, goal: 0.1}
       Rev7: {trajectory: 0.1, goal: 0.1}
-  stop_trajectory_duration: 0.5
-  state_publish_rate:  25
-  action_monitor_rate: 10
+      stop_trajectory_duration: 0.5
+      state_publish_rate:  25
+      action_monitor_rate: 10
 
   joint_group_position_controller:
     type: position_controllers/JointGroupPositionController
