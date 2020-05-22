@@ -1,3 +1,13 @@
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake)
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/share/robotic_arm_control/cmake/robotic_arm_controlConfig.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig.cmake)
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/lib/pkgconfig/robotic_arm_control.pc, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_control.pc)
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_control.pc
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig.cmake
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/cmake.lock, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/./cmake.lock)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/share/robotic_arm_control/cmake/robotic_arm_controlConfig.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig.cmake)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/lib/pkgconfig/robotic_arm_control.pc, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_control.pc)
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_control/cmake/robotic_arm_controlConfig.cmake
+Already unlinked: {}
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_control.pc
+Already unlinked: {}

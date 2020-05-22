@@ -1,1 +1,1 @@
-/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake
+/home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control/share/robotic_arm_control/cmake/robotic_arm_controlConfig-version.cmake

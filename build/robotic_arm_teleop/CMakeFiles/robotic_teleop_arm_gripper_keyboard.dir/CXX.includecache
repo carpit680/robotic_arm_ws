@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/include/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard.h
+/home/arpit/arpit/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/include/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard.h
 ros/ros.h
 -
 std_msgs/Float64.h
@@ -36,7 +36,7 @@ boost/make_shared.hpp
 boost/thread/thread.hpp
 -
 
-/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp
+/home/arpit/arpit/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp
 robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard.h
 -
 

@@ -67,14 +67,14 @@ set(robotic_arm_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robotic_arm_control_SOURCE_PREFIX /home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_control)
-  set(robotic_arm_control_DEVEL_PREFIX /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control)
+  set(robotic_arm_control_SOURCE_PREFIX /home/arpit/arpit/ros_workspaces/robotic_arm_ws/src/robotic_arm_control)
+  set(robotic_arm_control_DEVEL_PREFIX /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_control)
   set(robotic_arm_control_INSTALL_PREFIX "")
   set(robotic_arm_control_PREFIX ${robotic_arm_control_DEVEL_PREFIX})
 else()
   set(robotic_arm_control_SOURCE_PREFIX "")
   set(robotic_arm_control_DEVEL_PREFIX "")
-  set(robotic_arm_control_INSTALL_PREFIX /home/arpit/manas/ros_workspaces/robotic_arm_ws/install)
+  set(robotic_arm_control_INSTALL_PREFIX /home/arpit/arpit/ros_workspaces/robotic_arm_ws/install)
   set(robotic_arm_control_PREFIX ${robotic_arm_control_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/arpit/manas/ros_workspaces/robotic_arm_ws/install/lib;/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib;/home/arpit/catkin_ws/devel/lib;/home/arpit/manas/ros_workspaces/ws_moveit/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/arpit/arpit/ros_workspaces/robotic_arm_ws/install/lib;/home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

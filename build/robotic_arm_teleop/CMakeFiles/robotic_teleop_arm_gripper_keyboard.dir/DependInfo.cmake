@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp" "/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_teleop/CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/src/robotic_teleop_arm_gripper_keyboard.cpp.o"
+  "/home/arpit/arpit/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/src/robotic_teleop_arm_gripper_keyboard.cpp" "/home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_teleop/CMakeFiles/robotic_teleop_arm_gripper_keyboard.dir/src/robotic_teleop_arm_gripper_keyboard.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/arpit/manas/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/include"
+  "/home/arpit/arpit/ros_workspaces/robotic_arm_ws/src/robotic_arm_teleop/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

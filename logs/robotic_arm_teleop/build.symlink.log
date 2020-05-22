@@ -1,4 +1,17 @@
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake)
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake)
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/lib/pkgconfig/robotic_arm_teleop.pc, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_teleop.pc)
-Linked: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard)
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_teleop.pc
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake
+Symlinking /home/arpit/arpit/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/cmake.lock, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/./cmake.lock)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/lib/pkgconfig/robotic_arm_teleop.pc, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_teleop.pc)
+Cleaning: (/home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/.private/robotic_arm_teleop/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard, /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard)
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig.cmake
+Already unlinked: {}
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/share/robotic_arm_teleop/cmake/robotic_arm_teleopConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/pkgconfig/robotic_arm_teleop.pc
+Already unlinked: {}
+Unlinking: /home/arpit/manas/ros_workspaces/robotic_arm_ws/devel/lib/robotic_arm_teleop/robotic_teleop_arm_gripper_keyboard
+Already unlinked: {}

@@ -1,55 +1,65 @@
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1286/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1286.dir/build.make CMakeFiles/cmTC_b1286.dir/build
-make[1]: Entering directory '/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b1286.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b1286.dir/CheckSymbolExists.c.o   -c /home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b1286
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1286.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b1286.dir/CheckSymbolExists.c.o  -o cmTC_b1286 
-CMakeFiles/cmTC_b1286.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command(s):/usr/bin/make cmTC_fc27f/fast && /usr/bin/make  -f CMakeFiles/cmTC_fc27f.dir/build.make CMakeFiles/cmTC_fc27f.dir/build
+make[1]: Entering directory '/home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc27f.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fc27f.dir/src.c.o   -c /home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fc27f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc27f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_fc27f.dir/src.c.o  -o cmTC_fc27f 
+CMakeFiles/cmTC_fc27f.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b1286.dir/build.make:97: recipe for target 'cmTC_b1286' failed
-make[1]: *** [cmTC_b1286] Error 1
-make[1]: Leaving directory '/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b1286/fast' failed
-make: *** [cmTC_b1286/fast] Error 2
+CMakeFiles/cmTC_fc27f.dir/build.make:106: recipe for target 'cmTC_fc27f' failed
+make[1]: *** [cmTC_fc27f] Error 1
+make[1]: Leaving directory '/home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_fc27f/fast' failed
+make: *** [cmTC_fc27f/fast] Error 2
 
-File /home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
+
+Source file was:
 #include <pthread.h>
 
-int main(int argc, char** argv)
+void* test_func(void* data)
 {
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
   return 0;
-#endif
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp
+Change Dir: /home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b9ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b9ca.dir/build.make CMakeFiles/cmTC_1b9ca.dir/build
-make[1]: Entering directory '/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b9ca.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1b9ca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1b9ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b9ca.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1b9ca.dir/CheckFunctionExists.c.o  -o cmTC_1b9ca -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_c6e5a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6e5a.dir/build.make CMakeFiles/cmTC_c6e5a.dir/build
+make[1]: Entering directory '/home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6e5a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c6e5a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6e5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6e5a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c6e5a.dir/CheckFunctionExists.c.o  -o cmTC_c6e5a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1b9ca.dir/build.make:97: recipe for target 'cmTC_1b9ca' failed
-make[1]: *** [cmTC_1b9ca] Error 1
-make[1]: Leaving directory '/home/arpit/manas/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1b9ca/fast' failed
-make: *** [cmTC_1b9ca/fast] Error 2
+CMakeFiles/cmTC_c6e5a.dir/build.make:106: recipe for target 'cmTC_c6e5a' failed
+make[1]: *** [cmTC_c6e5a] Error 1
+make[1]: Leaving directory '/home/arpit/arpit/ros_workspaces/robotic_arm_ws/build/robotic_arm_description/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_c6e5a/fast' failed
+make: *** [cmTC_c6e5a/fast] Error 2
+
 
 
