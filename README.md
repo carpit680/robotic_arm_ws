@@ -16,4 +16,4 @@
 ![Circuit connections](model_and_circuit/robotic_arm_circuit_connections.jpg)
 
 ## Circuit schematics
-![Alt text](model_and_circuit/robotic_arm_schematics.jpg)
+![Circuit schematics](model_and_circuit/robotic_arm_schematics.jpg)
